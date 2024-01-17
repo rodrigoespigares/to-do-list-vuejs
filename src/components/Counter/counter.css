@@ -1,21 +1,23 @@
 #count{
     grid-area: count;
-    font-size: .7rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 1rem 0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    height: 1.2rem;
-    padding: .2rem;
-    max-height: 1.2rem;
+    font-size: 1.6rem;
+}
+#count p{
+    margin-top: 1.2rem;
 }
 #count button{
     grid-area: clear;
     background-color: transparent;
     border: none;
     color:red;
-    font-size: .7rem;
+    font-size: 1.6rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     cursor: pointer;

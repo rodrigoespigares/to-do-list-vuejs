@@ -84,7 +84,7 @@
 </script>
 <template>
     <Counter :notes="countComponent()" @clear-completes="completes()"/>
-    <section>
+    <section id="cuerpo">
         <article v-for="(value,pos) in filtered" :id="pos" :key="value.id" class="article">
             <section class="main">
                 <div>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="archivo" v-if="value.archivo" v-for="archivo in value.archivo">
                     <Icon icon="ant-design:paper-clip-outlined" />
-                    <a target="_blank" :href="archivo" :download="value.text">Archivo adjunto</a>
+                    <a class="fs-5" target="_blank" :href="archivo" :download="value.text">Archivo adjunto</a>
                 </div>
             </section>
             <footer>

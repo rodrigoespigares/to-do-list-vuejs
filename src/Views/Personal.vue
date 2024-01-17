@@ -15,10 +15,6 @@
     const task = computed(() => {
         return {isSearch: isSearch.value, text:text.value};
     })
-    var uid = getAuth().currentUser.uid;
-    var admins = ["ow5BChRBd8bz0VEuMc1SvsyhM422"]
-
-    var admin = admins.includes(uid);
 </script>
 
 <template>
