@@ -1,0 +1,30 @@
+#cabecera h2{
+    grid-area: title;
+    text-align: center;
+}
+#add{
+    grid-area: add;
+    display: flex;
+    justify-content: center;
+}
+#add input{
+    width: 100%;
+}
+#add input:focus{
+    outline: none;
+    border: 2px solid #11304F;
+    border-radius: 3px;
+}
+#add label{
+    display: flex;
+    align-items: center;
+}
+#add button, #add label{
+    background-color: #A5D5F9;
+    color: #4D4F55;
+    border: 1px solid;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    padding: 0 .3rem;
+    cursor: pointer;
+}
