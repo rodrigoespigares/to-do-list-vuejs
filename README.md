@@ -1,29 +1,9 @@
-# to-doList
+# To do List
+Empieza a gestionar tus dias creando un listado de tareas ordenadas por prioridad
 
-This template should help get you started developing with Vue 3 in Vite.
+## Contenido aprendido
+Creando el primer proyecto con VueJS, gestión con npm y aprendiendo a usar firebase, firestore y la administración de usuarios.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Datos de versiones
+### V.1.0
+Aplicación usable
