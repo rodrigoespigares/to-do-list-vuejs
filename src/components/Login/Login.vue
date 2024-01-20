@@ -76,8 +76,7 @@ function registroCorreo() {
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
-            // ..
-            console.log(error.message)
+            
         });
 }
 function iniciaSesionGitHub() {
@@ -86,8 +85,6 @@ function iniciaSesionGitHub() {
     signInWithPopup(auth, provider)
     .then((result) => {
         // This gives you a GitHub Access Token. You can use it to access the GitHub API.
-
-        console.log("hasta aqui")
         const credential = GithubAuthProvider.credentialFromResult(result);
         const token = credential.accessToken;
 
@@ -121,6 +118,7 @@ function iniciaSesionFacebook() {
 
         // IdP data available using getAdditionalUserInfo(result)
         // ...
+        router.push(link);
     })
     .catch((error) => {
         // Handle Errors here.
